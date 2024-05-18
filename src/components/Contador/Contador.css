@@ -1,0 +1,61 @@
+#content {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h2{
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+p{
+    font-size: 35px;
+}
+
+#valor{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#botoes button {
+    font-size: 15px;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    margin: 20px;
+}
+
+#adicionar {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 185, 3);
+}
+
+#remover {
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 8, 8);
+}
+
